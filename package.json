@@ -1,7 +1,7 @@
 {
   "name": "sequelize-express-sqlite",
   "version": "1.0.0",
-  "description": "",
+  "description": "[![Build Status](https://travis-ci.org/masfranzhuo/sequalize-express-SQLite.svg?branch=master)](https://travis-ci.org/masfranzhuo/sequalize-express-SQLite)\r # Node.js sequelize express CRUD\r Node.js CRUD application based on the SQLite database design and Express.js framework",
   "main": "app.js",
   "scripts": {
     "test": "mocha --timeout 10000 --exit",
@@ -10,15 +10,26 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "body-parser": "^1.18.2",
+    "body-parser": "^1.19.1",
     "dotenv": "^5.0.0",
-    "express": "^4.16.2",
-    "sequelize": "^4.33.3",
-    "sqlite3": "^3.1.13"
+    "express": "^4.17.2",
+    "sequelize": "^4.44.4",
+    "sqlite3": "^4.1.1"
   },
   "devDependencies": {
     "chai": "^4.1.2",
     "chai-http": "^3.0.0",
     "mocha": "^5.0.4"
-  }
+  },
+  "directories": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/masfranzhuo/sequalize-express-SQLite.git"
+  },
+  "bugs": {
+    "url": "https://github.com/masfranzhuo/sequalize-express-SQLite/issues"
+  },
+  "homepage": "https://github.com/masfranzhuo/sequalize-express-SQLite#readme"
 }
